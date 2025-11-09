@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weryfikacja Wycen Hydraulicznych - Oszczędź Pieniądze</title>
+    <!-- Ładowanie Tailwind CSS - dla responsywności i estetyki -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0077B6; /* Ciemnoniebieski */
+            --secondary: #00B4D8; /* Jasnoniebieski */
+            --accent: #90E0EF; /* Błękitny */
+            --dark: #03045E; /* Granat */
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--accent); /* Jasne tło */
+        }
+        .card-shadow {
+            box-shadow: 0 10px 30px -5px rgba(3, 4, 94, 0.2);
+        }
+        .btn-primary {
+            background-color: var(--dark);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .btn-primary:hover {
+            background-color: var(--primary);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px -3px rgba(3, 4, 94, 0.4);
+        }
+        .hero-bg {
+            background-color: var(--dark);
+            background-image: linear-gradient(135deg, var(--dark) 0%, var(--primary) 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); /* Nowoczesne cięcie na dole */
+        }
+    </style>
+</head>
+<body class="min-h-screen antialiased">
+
+    <!-- Sekcja Hero - Nagłówek i wezwanie do działania -->
+    <header class="hero-bg text-white py-16 sm:py-24">
+        <div class="container mx-auto px-4 text-center max-w-4xl">
+            <h1 class="text-4xl sm:text-6xl font-extrabold mb-4 leading-tight">
+                Stop Przepłacaniu za Hydraulika!
+            </h1>
+            <p class="text-xl sm:text-2xl font-light mb-8 opacity-90">
+                Weryfikuję wyceny remontów i awarii. Sprawdź, czy Twój kosztorys jest uczciwy i technicznie uzasadniony.
+            </p>
+            <!-- Przycisk CTA -->
+            <a href="mailto:1robertnowak@wp.pl.pl?subject=Wycena%20Hydrauliczna%20do%20Weryfikacji&body=Proszę%20o%20weryfikację%20wyceny%20załączonej%20w%20załączniku.%20Wystarczy%20zdjęcie%20lub%20PDF."
+               class="inline-block btn-primary text-white font-bold py-3 px-8 rounded-xl text-lg shadow-lg hover:shadow-xl transition duration-300">
+                Wyślij wycenę teraz!
+            </a>
+            <p class="mt-4 text-sm opacity-75">Szybka analiza. Zwykle w ciągu 24h.</p>
+        </div>
+    </header>
+
+    <!-- Sekcja 1: Jak to działa? (Karty procesowe) -->
+    <section class="py-16 -mt-16 sm:py-24">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+                Jak Oszczędzasz Czas i Pieniądze?
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- Krok 1 -->
+                <div class="bg-white p-6 rounded-2xl card-shadow text-center transform hover:scale-[1.02] transition duration-300">
+                    <div class="text-5xl mb-4 text-gray-700">💧</div>
+                    <h3 class="text-xl font-bold text-dark mb-3">1. Wyślij Wycenę</h3>
+                    <p class="text-gray-600">Prześlij mi otrzymany kosztorys (PDF, zdjęcie, a nawet e-mail) od hydraulika na adres <span class="font-mono text-sm text-primary">TWOJ_EMAIL@przykładowy.pl</span>.</p>
+                </div>
+
+                <!-- Krok 2 -->
+                <div class="bg-white p-6 rounded-2xl card-shadow text-center transform hover:scale-[1.02] transition duration-300">
+                    <div class="text-5xl mb-4 text-gray-700">🔎</div>
+                    <h3 class="text-xl font-bold text-dark mb-3">2. Analiza Fachowca (Ja)</h3>
+                    <p class="text-gray-600">Jako były hydraulik z doświadczeniem w IT, sprawdzam: rynkowość cen, zasadność robocizny, ukryte koszty i poprawność technologiczną.</p>
+                </div>
+
+                <!-- Krok 3 -->
+                <div class="bg-white p-6 rounded-2xl card-shadow text-center transform hover:scale-[1.02] transition duration-300">
+                    <div class="text-5xl mb-4 text-gray-700">✅</div>
+                    <h3 class="text-xl font-bold text-dark mb-3">3. Odbierz Raport</h3>
+                    <p class="text-gray-600">Dostajesz prosty raport: "Jest OK" lub "Możesz zejść o 15% - podważ pozycje A, B, C". Oszczędzasz 99 zł za usługę, ale zyskujesz spokój ducha.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja 2: Dlaczego mi zaufać? -->
+    <section class="bg-white py-16 sm:py-20">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+                Kto Za Tym Stoi? (Ekspert Z Branży)
+            </h2>
+            <div class="text-lg text-gray-600 space-y-6">
+                <p>
+                    Mam na imię **[Imię Użytkownika]** i przez wiele lat pracowałem jako hydraulik na budowach i przy awariach. Doskonale znam schematy "nabijania w butelkę" - od zawyżania cen materiałów, przez wpisywanie zbędnych czynności, aż po absurdalne stawki za "dojazd".
+                </p>
+                <p>
+                    Połączenie mojego doświadczenia w hydraulice z nowo zdobytą wiedzą w IT pozwala mi zaoferować tę unikalną usługę: szybką, precyzyjną weryfikację.
+                </p>
+                <div class="flex items-center space-x-4 mt-8 bg-accent/30 p-4 rounded-xl border-l-4 border-primary">
+                    <div class="text-4xl text-dark">💡</div>
+                    <p class="font-semibold text-gray-700">
+                        Nie musisz szukać drugiego fachowca, by zweryfikować pierwszego. Ja jestem Twoim cyfrowym rzeczoznawcą.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja 3: Cennik i Finalne CTA -->
+    <section class="py-16 sm:py-20 bg-accent">
+        <div class="container mx-auto px-4 text-center max-w-4xl">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">
+                Tylko 99 zł za Spokój i Gwarancję Oszczędności
+            </h2>
+            <p class="text-xl text-gray-600 mb-10">
+                Większość klientów, którzy do mnie trafiają, oszczędza co najmniej 300 zł na źle sporządzonych kosztorysach.
+            </p>
+
+            <!-- Karta Cennika -->
+            <div class="bg-white p-8 sm:p-10 rounded-3xl inline-block card-shadow border-4 border-dark">
+                <p class="text-4xl font-extrabold text-dark mb-2">99 zł</p>
+                <p class="text-lg text-gray-500 mb-6">Weryfikacja Jednej Wyceny (bez względu na jej wielkość)</p>
+                
+                <ul class="text-left text-gray-700 space-y-3 mb-8">
+                    <li class="flex items-start">
+                        <span class="text-xl text-primary mr-3">✓</span> Analiza Rynkowa Cen Materiałów.
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-xl text-primary mr-3">✓</span> Weryfikacja Niezbędnych Prac i Robocizny.
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-xl text-primary mr-3">✓</span> Identyfikacja Ukrytych lub Niesłusznych Kosztów.
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-xl text-primary mr-3">✓</span> Prosty, mailowy Raport z Rekomendacjami.
+                    </li>
+                </ul>
+
+                <!-- Przycisk finalny -->
+                <a href="mailto:1robertnowak@wp.plT.pl?subject=Zaczynam%20Weryfikację%20Kosztorysu"
+                   class="inline-block btn-primary text-white font-bold py-3 px-10 rounded-xl text-xl w-full">
+                    Wyślij kosztorys i zacznij oszczędzać
+                </a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Stopka -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-4 text-center text-sm">
+            <p>&copy; 2025 Weryfikacja Wycen. Wszystkie prawa zastrzeżone.</p>
+            <p class="mt-2">Kontakt: <a href="mailto:1robertnowak@wp.pl.pl" class="underline hover:text-secondary">TWOJ_EMAIL@przykładowy.pl</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
